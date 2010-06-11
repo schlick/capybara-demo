@@ -9,9 +9,7 @@ gem 'will_paginate'
 group(:test) do
   gem 'cucumber'
   gem 'cucumber-rails'
-  gem 'capybara'
-  gem 'culerity'
-  gem 'celerity', :require => nil # jruby only. make it available but don't require it.
+  gem 'capybara-envjs', :require => 'capybara/envjs'
   gem 'machinist'
   gem 'pickle'
   gem 'database_cleaner'
